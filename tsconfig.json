@@ -1,0 +1,11 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "compilerOptions": {
+      "outDir": "dist",
+      "lib": [
+        "dom"
+      ]
+    },
+    "include": ["src", "dist/index.js", "webpack.config.js", "src/**/*", "postcss.config.js"],
+    "exclude": ["node_modules"]
+}

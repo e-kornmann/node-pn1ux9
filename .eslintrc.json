@@ -1,0 +1,15 @@
+{
+    "extends": "salt-typescript",
+    
+    "overrides": [
+    ],
+    "parserOptions": {
+        "project": "tsconfig.json",
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    
+    "rules": {
+        "no-console": "off"
+    }
+}
